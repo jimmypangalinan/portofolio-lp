@@ -338,13 +338,13 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 0rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
-  width: 10rem;
+  width: 20rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
