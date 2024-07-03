@@ -199,11 +199,6 @@ section {
   text-align: center;
 }
 
-.title2 {
-  font-size: 3rem;
-  text-align:left
-}
-
 #socials-container {
   display: flex;
   justify-content: center;
@@ -434,42 +429,4 @@ footer {
 
 footer p {
   text-align: center;
-}
-
-
-/* BANNER SECTION */
-
-#banner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  border-radius: 20px;
-}
-
-.banner-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  animation: slide 24s infinite; /* Adjusted to match three slides */
-  transition: transform 0.8s ease-in-out;
-}
-
-.banner-slide {
-  flex: 1 0 100%;
-  height: 100%;
-}
-
-.banner-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-@keyframes slide {
-  0%, 33.33% { transform: translateX(0); }
-  33.33%, 66.66% { transform: translateX(-100%); }
-  66.66%, 100% { transform: translateX(-200%); }
 }
